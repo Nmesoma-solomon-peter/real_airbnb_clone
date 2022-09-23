@@ -1,0 +1,36 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100%;
+    width: 100%;
+}
+.header__icon{
+    height: 100px;
+    padding: 20px;
+}
+.header_center{
+    display: flex;
+    flex: 1;
+    border: 1px solid gray;
+    border-radius: 999px;
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+    max-width: fit-content;
+}
+.header_center > input {
+    border: none;
+    padding: 0px;
+    outline-width: 0;
+}
+.header__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
